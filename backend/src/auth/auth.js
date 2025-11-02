@@ -5,13 +5,12 @@ import crypto from 'crypto'
 import { Mongo } from '../database/mongo.js'
 import jwt from 'jsonwebtoken'
 import { ObjectId } from 'mongodb'
-import { text } from 'stream/consumers'
 
 const collectionName = 'users'
 
 passport.use(new LocalStrategy({ usernameField: 'email' }, async (email, password, callback) => {
     const user = await Mongo.db
-    .colection(collectionName)
+    .collection(collectionName)
     .findOne({email: email})
 
     if(!user) {
@@ -84,7 +83,7 @@ authRouter.post('/signup', async(req, res) => {
             const token = jwt.sign(user, 'secret')
 
             return res.send({ 
-            success: false,
+            success: true,
             statusCode: 200,
             body: {
                 text: 'User registered correctly!',
