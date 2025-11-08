@@ -1,0 +1,83 @@
+[
+    {
+        "name": "Santorini, Greece",
+        "price": 1299.99,
+        "available": true,
+        "description": "Experience the breathtaking sunsets and whitewashed architecture of Santorini. Wander through the charming streets of Oia and enjoy Mediterranean cuisine by the sea.",
+        "highlights": ["Sunset in Oia", "Volcano tour", "Local wines"],
+        "imgUrl": "/imgs/places/santorini.png",
+        "category": "Island"
+    },
+    {
+        "name": "Kyoto, Japan",
+        "price": 1099.99,
+        "available": true,
+        "description": "Step back in time and explore ancient temples, peaceful gardens, and traditional tea houses in the heart of Japan’s cultural capital.",
+        "highlights": ["Fushimi Inari Shrine", "Arashiyama Bamboo Grove", "Kinkaku-ji Temple"],
+        "imgUrl": "/imgs/places/kyoto.png",
+        "category": "Cultural"
+    },
+    {
+        "name": "Machu Picchu, Peru",
+        "price": 1499.99,
+        "available": true,
+        "description": "Hike through the Andes to discover the legendary lost city of the Incas. A once-in-a-lifetime adventure surrounded by breathtaking mountain views.",
+        "highlights": ["Inca Trail", "Sun Gate", "Sacred Valley"],
+        "imgUrl": "/imgs/places/machuPicchu.png",
+        "category": "Adventure"
+    },
+    {
+        "name": "Paris, France",
+        "price": 1199.99,
+        "available": true,
+        "description": "The city of love awaits! Visit the Eiffel Tower, explore art at the Louvre, and indulge in pastries at charming Parisian cafés.",
+        "highlights": ["Eiffel Tower", "Louvre Museum", "Seine River Cruise"],
+        "imgUrl": "/imgs/places/paris.png",
+        "category": "Urban"
+    },
+    {
+        "name": "Banff National Park, Canada",
+        "price": 899.99,
+        "available": true,
+        "description": "A paradise for nature lovers! Discover turquoise lakes, snow-capped peaks, and wildlife in the heart of the Canadian Rockies.",
+        "highlights": ["Lake Louise", "Moraine Lake", "Banff Gondola"],
+        "imgUrl": "/imgs/places/banff.png",
+        "category": "Nature"
+    },
+    {
+        "name": "Cairo, Egypt",
+        "price": 999.99,
+        "available": false,
+        "description": "Explore the wonders of ancient Egypt, from the Great Pyramids to the Sphinx. Dive into the rich history and culture of Cairo.",
+        "highlights": ["Pyramids of Giza", "Egyptian Museum", "Nile River Cruise"],
+        "imgUrl": "/imgs/places/cairo.png",
+        "category": "Historical"
+    },
+    {
+        "name": "Bali, Indonesia",
+        "price": 1099.99,
+        "available": true,
+        "description": "A tropical paradise with lush jungles, rice terraces, and spiritual temples. Perfect for relaxation or adventure under the sun.",
+        "highlights": ["Ubud Monkey Forest", "Tegallalang Rice Terraces", "Tanah Lot Temple"],
+        "imgUrl": "/imgs/places/bali.png",
+        "category": "Island"
+    },
+    {
+        "name": "Rome, Italy",
+        "price": 1199.99,
+        "available": true,
+        "description": "Walk through history in the Eternal City. From the Colosseum to the Vatican, every street tells a story of the ancient world.",
+        "highlights": ["Colosseum", "Trevi Fountain", "Vatican City"],
+        "imgUrl": "/imgs/places/rome.png",
+        "category": "Cultural"
+    },
+    {
+        "name": "New York City, USA",
+        "price": 1399.99,
+        "available": true,
+        "description": "The city that never sleeps! Explore Times Square, Central Park, and the Statue of Liberty in one of the most iconic cities in the world.",
+        "highlights": ["Times Square", "Central Park", "Statue of Liberty"],
+        "imgUrl": "/imgs/places/newyork.png",
+        "category": "Urban"
+    }
+]
