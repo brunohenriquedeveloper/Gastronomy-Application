@@ -26,9 +26,9 @@ export default class OrdersControllers {
         }
     }
 
-    async deleteOrder(ordersId){
+    async deleteOrders(ordersId){
         try{
-            const result = await this.dataAccess.deleteOrder(ordersId)
+            const result = await this.dataAccess.deleteOrders(ordersId)
 
             return ok(result)
         } catch(error) {
@@ -36,9 +36,9 @@ export default class OrdersControllers {
         }
     }
 
-    async addOrder(ordersData){
+    async addOrders(ordersData){
         try{
-            const result = await this.dataAccess.addOrder(ordersData)
+            const result = await this.dataAccess.addOrders(ordersData)
 
             return ok(result)
         } catch(error) {
@@ -46,9 +46,9 @@ export default class OrdersControllers {
         }
     }
 
-    async updateOrder(ordersId, ordersData){
+    async updateOrders(ordersId, ordersData){
         try{
-            const result = await this.dataAccess.updateOrder(ordersId, ordersData)
+            const result = await this.dataAccess.updateOrders(ordersId, ordersData)
 
             return ok(result)
         } catch(error) {
