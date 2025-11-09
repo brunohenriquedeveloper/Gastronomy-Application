@@ -7,7 +7,39 @@ export default class OrdersDataAccess {
     async getOrders(){
         const result = await Mongo.db
         .collection(collectionName)
-        .find({})
+        .aggregate([
+            {
+                $lookup: {
+                    from: 'orderItems',
+                    localField: '_id',
+                    foreignField: 'orderId',
+                    as:'orderItems'
+                }
+            }, {
+                $lookup: {
+                    from: 'users',
+                    localField: 'userId',
+                    foreignField: '_id',
+                    as:'userDetails'
+                }
+            },
+            {
+                $project: {
+                    'userDetails.password': 0,
+                    'userDetails.salt': 0,
+
+                }
+            }, {
+                $unwind: '$orderItems'
+            }, {
+                $lookup: {
+                    from: 'places',
+                    localField: 'orderItems.placeId',
+                    foreignField: '_id',
+                    as:'orderItems.itemDetails'
+                }
+            },
+        ])
         .toArray()
 
         return result
