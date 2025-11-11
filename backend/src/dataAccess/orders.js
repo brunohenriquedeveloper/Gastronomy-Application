@@ -38,7 +38,16 @@ export default class OrdersDataAccess {
                     foreignField: '_id',
                     as:'orderItems.itemDetails'
                 }
-            },
+            }, 
+            {
+                $group: {
+                    _id: '$_id',
+                    userDetails: {$first: '$userDetails'},
+                    orderItems: {$push: '$orderItems'},
+                    pickupStatus: {$first: '$pickupStatus'},
+                    pickupTime: {$first: '$pickupTime'}
+                }
+            }
         ])
         .toArray()
 
