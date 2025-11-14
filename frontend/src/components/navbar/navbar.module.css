@@ -44,6 +44,17 @@
     padding: .5em;
 }
 
+.drawer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #28112B;
+    padding: 2em;
+    gap: 1em;
+    font-size: xx-large;
+    height: 100%;
+}
+
 @media screen and (max-width: 600px) {
     .navbarItems {
         display: none;
