@@ -1,4 +1,31 @@
 .navbarContainer{
     background-color: #28112B;
     height: 96px;
+    display: flex;
+    align-items: center;
+    padding: 0.2em;
+}
+
+.logo {
+    width: 5em;
+}
+
+.navbarItems {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.navbarLink {
+    color: #8DAA91;
+}
+
+.navbarLinksContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
 }
