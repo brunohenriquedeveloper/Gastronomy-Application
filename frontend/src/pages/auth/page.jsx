@@ -1,11 +1,13 @@
 import { useState } from "react"
 import { TextField, Button } from "@mui/material"
 import styles from './page.module.css'
+import authServices from "../../services/auth"
 
 export default function Auth(){
 
     const [formType, setFormType] = useState('login')
     const [formData, setFormData] = useState(null)
+    const {login, signup, authLoading } = authServices()
 
 
     const handleChangeFormType = () => {
@@ -28,12 +30,14 @@ export default function Auth(){
         e.preventDefault()
         switch (formType) {
             case 'login':
-                
+                login(formData)
                 break;
                 case 'signup':
-                if(formData.password !== formData.confirmpassword){
+                if(formData.password !== formData.confirmPassword){
                     console.log('Passwords do not match')
+                    return 
                 }
+                signup(formData)
                 break;
         }
     }
