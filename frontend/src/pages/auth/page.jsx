@@ -9,7 +9,7 @@ export default function Auth(){
     const [formData, setFormData] = useState(null)
     const {login, signup, authLoading } = authServices()
 
-
+    
     const handleChangeFormType = () => {
         setFormData(null)
         if(formType === 'login'){
@@ -40,6 +40,10 @@ export default function Auth(){
                 signup(formData)
                 break;
         }
+    }
+
+    if(authLoading) {
+        return (<h1>Loading...</h1>)
     }
 
     if(formType === 'login'){
