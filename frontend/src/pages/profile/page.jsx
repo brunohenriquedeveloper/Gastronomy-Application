@@ -10,9 +10,9 @@ export default function Profile(){
 
     useEffect(() => {
         if(!authData){
-            return navigate('/auth')
+            navigate('/auth')
         }
-    }, [authData])
+    }, [authData, navigate])
 
     const handleLogout =  () =>{
         logout()
