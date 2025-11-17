@@ -7,3 +7,13 @@
 #root {
   font-size: x-large;
 }
+
+button {
+  width: fit-content;
+  background-color:  #453643;
+  color: #ffffffe4;
+  border: none;
+  padding: 1em;
+  border-radius: .5em;
+  cursor: pointer;
+}
