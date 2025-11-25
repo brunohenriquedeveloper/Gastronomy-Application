@@ -1,0 +1,54 @@
+.pageContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2em;
+    padding: 1em;
+}
+
+.placesSection {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2em;
+    background-color: #392d3780;
+    color: aliceblue;
+    padding: 2em;
+    border-radius: 1em;
+}
+
+.placesSection div {
+    display: flex;
+    flex-direction: column;
+    gap: .2em;
+    text-align: center;
+}
+
+.socialButtonsContainer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: .2em;
+}
+
+.socialButton {
+    width: 100%;
+}
+
+.contactSection {
+    display: flex;
+    flex-direction: column;
+    gap: .2em;
+}
+
+@media screen and (max-width: 1000px) {
+    .placesSection {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+
+@media screen and (max-width: 700px) {
+    .placesSection {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
