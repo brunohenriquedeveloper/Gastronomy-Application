@@ -42,7 +42,7 @@ export default function Profile(){
             <h3>{authData?.user?.email}</h3>
             </div>
         
-        <button onClick={handleLogout}>Logout <LuLogOut /></button>
+        <button onClick={handleLogout} className={styles.logout}>Logout <LuLogOut /></button>
 
 
         {ordersList.length > 0 ? 
