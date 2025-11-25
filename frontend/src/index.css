@@ -2,13 +2,22 @@
   margin: 0;
   padding: 0;
   text-decoration: none;
+  font-family: 'Inter', sans-serif;
 }
 
 #root {
   font-size: x-large;
+  background-color: #1f0d21;
+  min-height: 100vh;
+  color: #8DAA91;
 }
 
 button {
+  display: flex;
+  gap: 0.5em;
+  align-items: center;
+  justify-content: center;
+  font-size: medium;
   width: fit-content;
   background-color:  #453643;
   color: #ffffffe4;
@@ -16,4 +25,14 @@ button {
   padding: 1em;
   border-radius: .5em;
   cursor: pointer;
+}
+
+main {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+p {
+  display: flex;
+  gap: .2em;
 }
