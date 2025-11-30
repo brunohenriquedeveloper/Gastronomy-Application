@@ -17,7 +17,7 @@
     border-radius: 1em;
 }
 
-.placesSection div {
+.placesSection > div {
     display: flex;
     flex-direction: column;
     gap: .2em;
@@ -44,6 +44,34 @@
     width: 100%;
     height: auto;
     border-radius: 0.5em;
+}
+
+.icon {
+    display: inline-flex;
+    height: .8em;
+    color: yellow;
+}
+
+.titleWithIcon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5em;
+}
+
+.placesSectionDiv{
+    background-color: #1F0D21;
+    padding: .3em;
+    border-radius: .5em;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.placesSectionDiv p {
+    font-size: 1.2rem;
+    font-weight: 200;
+    color: gray;
+    text-align: center;
 }
 
 @media screen and (max-width: 1000px) {
