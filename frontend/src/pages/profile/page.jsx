@@ -1,5 +1,5 @@
 import { useEffect } from "react"
-import { useNavigate } from "react-router-dom"
+import { Link, useNavigate } from "react-router-dom"
 import authServices from "../../services/auth"
 import orderServices from "../../services/order"
 import styles from "./page.module.css"
@@ -66,7 +66,8 @@ export default function Profile(){
         
         :
         <div className={styles.orderContainer}>
-            You do not have orders yet
+            You do not have orders yet.
+            <Link to={'/places'} className={styles.placesLink}>Click here and discover new places around the world!</Link>
         </div>
 
         }

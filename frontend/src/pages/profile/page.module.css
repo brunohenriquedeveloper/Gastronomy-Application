@@ -48,6 +48,11 @@
     font-weight: 600;
 }
 
+.placesLink {
+    color: #8ecb96;
+    text-decoration: underline;
+}
+
 
 @media screen and (max-width: 800px) {
     .ordersContainer {
