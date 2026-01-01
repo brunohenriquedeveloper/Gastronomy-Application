@@ -1,0 +1,102 @@
+[
+    {
+        "name": "Paris, France",
+        "price": 899.99,
+        "available": true,
+        "description": "Explore the city of love with its iconic Eiffel Tower, world-class museums, and charming cafés spread across historic streets.",
+        "highlights": ["Eiffel Tower", "Louvre Museum", "Seine River"],
+        "imgUrl": "/imgs/places/paris.png",
+        "category": "Europe"
+    },
+    {
+        "name": "Tokyo, Japan",
+        "price": 1199.99,
+        "available": true,
+        "description": "A vibrant mix of tradition and technology, Tokyo offers ancient temples, futuristic districts, and unforgettable cuisine.",
+        "highlights": ["Shibuya Crossing", "Senso-ji Temple", "Akihabara"],
+        "imgUrl": "/imgs/places/tokyo.png",
+        "category": "Asia"
+    },
+    {
+        "name": "New York City, USA",
+        "price": 749.99,
+        "available": false,
+        "description": "The city that never sleeps welcomes you with iconic landmarks, Broadway shows, and diverse neighborhoods full of culture.",
+        "highlights": ["Statue of Liberty", "Central Park", "Times Square"],
+        "imgUrl": "/imgs/places/newyork.png",
+        "category": "North America"
+    },
+    {
+        "name": "Rio de Janeiro, Brazil",
+        "price": 499.99,
+        "available": true,
+        "description": "Golden beaches, breathtaking landscapes, and a vibrant cultural scene make Rio an unforgettable destination.",
+        "highlights": ["Christ the Redeemer", "Copacabana Beach", "Sugarloaf Mountain"],
+        "imgUrl": "/imgs/places/riodejaneiro.png",
+        "category": "South America"
+    },
+    {
+        "name": "Cape Town, South Africa",
+        "price": 899.99,
+        "available": true,
+        "description": "A stunning coastal city surrounded by mountains, famous for its natural beauty, history, and rich cultural heritage.",
+        "highlights": ["Table Mountain", "Cape Point", "Robben Island"],
+        "imgUrl": "/imgs/places/capetown.png",
+        "category": "Africa"
+    },
+    {
+        "name": "Sydney, Australia",
+        "price": 1299.99,
+        "available": true,
+        "description": "Enjoy sunny beaches, a relaxed lifestyle, and iconic architecture in one of the most famous cities in the world.",
+        "highlights": ["Sydney Opera House", "Bondi Beach", "Harbour Bridge"],
+        "imgUrl": "/imgs/places/sydney.png",
+        "category": "Oceania"
+    },
+
+    {
+        "name": "Rome, Italy",
+        "price": 799.99,
+        "available": true,
+        "description": "Walk through centuries of history in Rome, where ancient ruins, stunning architecture, and authentic Italian cuisine meet at every corner.",
+        "highlights": ["Colosseum", "Roman Forum", "Vatican City"],
+        "imgUrl": "/imgs/places/rome.png",
+        "category": "Europe"
+    },
+    {
+        "name": "Bangkok, Thailand",
+        "price": 699.99,
+        "available": true,
+        "description": "A city full of contrasts, Bangkok offers vibrant street life, ornate temples, and some of the most flavorful food in the world.",
+        "highlights": ["Grand Palace", "Wat Arun", "Floating Markets"],
+        "imgUrl": "/imgs/places/bangkok.png",
+        "category": "Asia"
+    },
+    {
+        "name": "Vancouver, Canada",
+        "price": 849.99,
+        "available": false,
+        "description": "Surrounded by mountains and ocean, Vancouver blends urban life with nature, offering outdoor adventures and a high quality of life.",
+        "highlights": ["Stanley Park", "Capilano Bridge", "Granville Island"],
+        "imgUrl": "/imgs/places/vancouver.png",
+        "category": "North America"
+    },
+    {
+        "name": "Buenos Aires, Argentina",
+        "price": 459.99,
+        "available": true,
+        "description": "The birthplace of tango invites you to experience rich culture, European-style architecture, and an unforgettable culinary scene.",
+        "highlights": ["La Boca", "Recoleta", "Puerto Madero"],
+        "imgUrl": "/imgs/places/buenosaires.png",
+        "category": "South America"
+    },
+    {
+        "name": "Auckland, New Zealand",
+        "price": 1399.99,
+        "available": true,
+        "description": "A modern city built between volcanoes and the sea, Auckland is the gateway to breathtaking landscapes and outdoor adventures.",
+        "highlights": ["Sky Tower", "Waiheke Island", "Volcanic Parks"],
+        "imgUrl": "/imgs/places/auckland.png",
+        "category": "Oceania"
+    }
+]
