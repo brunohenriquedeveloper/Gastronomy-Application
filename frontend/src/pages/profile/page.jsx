@@ -4,6 +4,7 @@ import authServices from "../../services/auth"
 import orderServices from "../../services/order"
 import styles from "./page.module.css"
 import { LuLogOut, LuTimer, LuCircleAlert, LuCircleCheck } from "react-icons/lu";
+import Loading from "../../loading/page"
 
 
 export default function Profile(){
@@ -24,7 +25,7 @@ export default function Profile(){
     }, [authData, navigate, refetchOrders])
 
     if(orderLoading){
-        return (<h1>Loading...</h1>)
+        return (<Loading />)
     }
 
     const handleLogout =  () =>{
