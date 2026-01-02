@@ -1,0 +1,23 @@
+.footerContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #2c1d2c79;
+    padding: .3em;
+}
+
+.footerContainer img {
+    width: 60px;
+    display: flex;
+    height: auto;
+    align-self: center;
+    justify-content: center;
+}
+
+.footerLinks {
+    font-size: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: 300;
+}
