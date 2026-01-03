@@ -12,7 +12,7 @@ placesRouter.get('/', async(req, res) => {
     res.status(200).send({success, statusCode, body})
 })
 
-placesRouter.get('/availables/', async(req, res) => {
+placesRouter.get('/availables', async(req, res) => {
     const { success, statusCode, body } = await placesControllers.getAvailablePlaces()
 
     res.status(200).send({success, statusCode, body})
